@@ -1,3 +1,9 @@
+python3-cherrypy8 (8.1.2-1bb3) xenial; urgency=medium
+
+  * Fixed packaging
+
+ -- Alex Badics <alex.badics@balabit.com>  Wed, 09 Nov 2016 17:29:29 +0100
+
 python3-cherrypy8 (8.1.2-1bb2) UNRELEASED; urgency=medium
 
   * Balabit patched version
