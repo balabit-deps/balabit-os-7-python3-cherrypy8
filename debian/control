@@ -1,11 +1,11 @@
-Source: cherrypy
+Source: python3-cherrypy8
 Maintainer: CherryPy Team <team@cherrypy.org>
 Section: python
 Priority: optional
 Build-Depends: python3-setuptools, python3-all, debhelper (>= 7.4.3), python3-setuptools-scm
 Standards-Version: 3.9.1
 
-Package: python3-cherrypy
+Package: python3-cherrypy8
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
 Description: Object-Oriented HTTP framework
