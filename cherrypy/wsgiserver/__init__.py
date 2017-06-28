@@ -2487,7 +2487,7 @@ class WSGIGateway_10(WSGIGateway):
         return env
 
     def _get_peer_uid(self):
-        creds = self.req.server.socket.getsockopt(socket.SOL_SOCKET, socket.SO_PEERCRED, struct.calcsize('3i'))
+        creds = self.req.conn.socket.getsockopt(socket.SOL_SOCKET, socket.SO_PEERCRED, struct.calcsize('3i'))
         pid, uid, gid = struct.unpack('3i', creds)
         return uid
 

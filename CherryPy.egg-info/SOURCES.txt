@@ -5,6 +5,7 @@
 CHANGES.txt
 CONTRIBUTING.txt
 MANIFEST.in
+PKG-INFO
 README.md
 make-sdist
 setup.cfg
@@ -145,6 +146,12 @@ cherrypy/wsgiserver/__init__.py
 cherrypy/wsgiserver/ssl_builtin.py
 cherrypy/wsgiserver/ssl_pyopenssl.py
 cherrypy/wsgiserver/test_wsgiserver.py
+debian/changelog
+debian/compat
+debian/control
+debian/rules
+debian/source/format
+debian/source/options
 docs/advanced.rst
 docs/basics.rst
 docs/conf.py
