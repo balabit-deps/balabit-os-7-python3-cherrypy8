@@ -1,3 +1,10 @@
+python3-cherrypy8 (8.1.2-1bb5) xenial; urgency=medium
+
+  * Fixed peer socket UID recognition to use the actual connection socket
+    instead of the listening one.
+
+ -- Balazs Scheidler <bazsi@bzorp>  Mon, 26 Jun 2017 15:14:40 +0200
+
 python3-cherrypy8 (8.1.2-1bb4) xenial; urgency=medium
 
   * Added patch to implement SO_PEERCRED based authentication for
