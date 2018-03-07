@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: CherryPy
-Version: 0.1.dev10+gd5ff468.d20170628
+Version: 8.1.2
 Summary: Object-Oriented HTTP framework
 Home-page: http://www.cherrypy.org
 Author: CherryPy Team
