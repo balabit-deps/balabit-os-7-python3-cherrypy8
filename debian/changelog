@@ -1,3 +1,9 @@
+python3-cherrypy8 (8.1.2-1bb6) xenial; urgency=medium
+
+  * Fixed packaging, conflict with and replace python3-cherrypy3
+
+ -- Attila Magyar <attila.magyar@balabit.com>  Tue, 13 Mar 2018 15:50:42 +0200
+
 python3-cherrypy8 (8.1.2-1bb5) xenial; urgency=medium
 
   * Fixed peer socket UID recognition to use the actual connection socket
