@@ -8,6 +8,8 @@ Standards-Version: 3.9.1
 Package: python3-cherrypy8
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
+Conflicts: python3-cherrypy3
+Replaces: python3-cherrypy3
 Description: Object-Oriented HTTP framework
  CherryPy is a pythonic, object-oriented HTTP framework
 
