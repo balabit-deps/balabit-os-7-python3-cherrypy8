@@ -1,3 +1,9 @@
+python3-cherrypy8 (8.1.2-1bb7) xenial; urgency=medium
+
+  *  Allow binding to an ephemeral port. Fixes #645.
+
+ -- Laszlo Vasko <laszlo.vasko@oneidentity.com>  Tue, 04 Jun 2019 18:29:41 +0200
+
 python3-cherrypy8 (8.1.2-1bb6) xenial; urgency=medium
 
   * Fixed packaging, conflict with and replace python3-cherrypy3
